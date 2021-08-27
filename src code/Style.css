@@ -1,0 +1,53 @@
+/* seletor universal */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  html, body {
+    background: rgb(2,0,36);
+    background: linear-gradient(277deg, rgba(2,0,36,1) 0%, rgba(9,9,116,1) 35%, rgba(43,145,166,1) 100%);    width: 100%;
+    height: 100%;
+  }
+  /* seletor do botão e propriedades */
+  button {
+    width: 100%; /* largura em 100% com base na largura da div principal*/
+    padding: 12px;
+    background-color: #090974;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #bec2c0;
+    border-radius: 3px;
+    outline: none;
+  }
+  /* classes para serem reutilizadas no html */
+  .mt {
+    margin-top: 10px;
+  }
+  /* classes para serem reutilizadas no html */
+  .mb {
+    margin-bottom: 10px;
+  }
+  /* box da div e suas propriedades */
+  div {
+    background: rgba(252, 252, 252, 0.9);
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 35px 15px;
+    border-radius: 6px;
+  }
